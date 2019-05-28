@@ -14,7 +14,6 @@ client.user.setStatus("dnd")
  
 });
 
-
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
