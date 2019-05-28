@@ -1,4 +1,4 @@
-const prefix = "+";
+const prefix = "E";
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -9,10 +9,11 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers ' Script By : PrinceCrafter Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`${preifx}bc`,"http://twitch.tv/S-F")
+client.user.setGame(`Ebc `,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
  
 });
+
 
 client.on("message", message => {
 
@@ -27,5 +28,6 @@ client.on("message", message => {
  message.delete(); 
 };     
 });
+
 
 client.login(process.env.TOKEN);
