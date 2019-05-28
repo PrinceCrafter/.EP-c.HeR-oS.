@@ -1,4 +1,4 @@
-const prefix = "1";
+const prefix = "+";
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -9,7 +9,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers ' Script By : PrinceCrafter Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1bc| DarkSide BC : ${client.guilds.size}`,"http://twitch.tv/S-F")
+client.user.setGame(`${preifx}bc`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
  
 });
